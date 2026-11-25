@@ -1,0 +1,19 @@
+{
+  "path": "A_official_pt",
+  "model": "yolov10n.pt",
+  "data": "coco128.yaml",
+  "imgsz": 640,
+  "device": "cpu",
+  "map50_95": 0.45709563621981275,
+  "map50": 0.619489019645348,
+  "map75": 0.4876523596478631,
+  "precision": 0.6345285600499371,
+  "recall": 0.5530885966825475,
+  "val_seconds": 9.681,
+  "speed_ms_per_image": {
+    "preprocess": 0.668247657813481,
+    "inference": 17.909463281284843,
+    "postprocess": 0.038903906897758134
+  },
+  "note": "Official checkpoint only. No fine-tuning. Fixed subset = coco128 (common small COCO subset)."
+}

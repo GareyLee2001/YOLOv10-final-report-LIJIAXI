@@ -1,0 +1,28 @@
+{
+  "path": "B_finetune_coco128",
+  "base_model": "yolov10n.pt",
+  "finetuned_checkpoint": "results\\finetune\\train\\weights\\best.pt",
+  "data": "coco128.yaml",
+  "imgsz": 640,
+  "max_epochs": 100,
+  "patience": 0,
+  "epochs_ran": 100,
+  "best_epoch": 83,
+  "best_map50_95_during_train": 0.75684,
+  "batch": 8,
+  "device": "cpu",
+  "map50_95": 0.757284382892905,
+  "map50": 0.9024649805519577,
+  "map75": 0.800984974865106,
+  "precision": 0.902055762634954,
+  "recall": 0.8126115275859788,
+  "train_seconds": 3197.294,
+  "val_seconds": 4.71,
+  "speed_ms_per_image": {
+    "preprocess": 0.7667234367545461,
+    "inference": 17.699020310828928,
+    "postprocess": 0.06071406187402317
+  },
+  "note": "Fixed 100-epoch fine-tune on coco128 (common Ultralytics small COCO subset; more than coco8, still not full COCO).",
+  "train_save_dir": "C:\\Users\\联想\\Desktop\\AT3-Part2-YOLOv10-reproduction-李嘉烯-D26092110161\\results\\finetune\\train"
+}

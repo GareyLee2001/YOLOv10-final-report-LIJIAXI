@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+*.pt
+yolov10*.pt
+runs/
+datasets/
+ultralytics*/
+wandb/
+.DS_Store
+Thumbs.db
+*.log
+*.zip
+
+# keep metrics / plots; drop bulky weight binaries only
+results/finetune/train/weights/
+results/**/weights/
